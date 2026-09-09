@@ -1,5 +1,5 @@
 output "public_ip" {
-    value = aws_instance.this.public_ip
+  value = aws_instance.this.public_ip
 }
 output "instance_id" {
   description = "Identifiant de l'instance (utilise par les scripts stop/start)"
